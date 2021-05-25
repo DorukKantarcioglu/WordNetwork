@@ -438,4 +438,6 @@ int main(int argc, char** argv)
     graph.findShortestPath("price", "rover");
     cout << endl;
     graph.listConnectedComponents();    /// 853 connected components in the graph
+    
+    return 0;
 }
